@@ -55,9 +55,9 @@ public class SpartanAdminGetTest {
 
         Ensure.that("Status code: 200", resp -> {
             resp.statusCode(200);
-            resp.body("id",is(13));
-            resp.body("name",is("Jaimie"));
-            resp.body("gender",is("Female"));
+            resp.body("id", is(13));
+            resp.body("name", is("Jaimie"));
+            resp.body("gender", is("Female"));
         });
     }
 }

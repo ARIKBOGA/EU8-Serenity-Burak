@@ -11,7 +11,7 @@ public class BookEnvTest {
 
 
     @Test
-    public void test1(){
+    public void test1() {
 
         System.out.println(ConfigReader.getProperty("base.url"));
         System.out.println(ConfigReader.getProperty("teacher_email"));

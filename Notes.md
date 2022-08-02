@@ -5,10 +5,12 @@ Serenity BDD is an open source library that aims to make the idea of living docu
 Here is the [link](https://serenity-bdd.github.io/theserenitybook/latest/index.html) for simple documentation.
 
 ### Steps to Create Project
+
 1. Create a maven project called `EU8SerenityProject`
 
 2. Under `pom.xml`
     1. add below property section
+
 ```xml 
 <properties>
 <maven.compiler.source>8</maven.compiler.source>
@@ -16,7 +18,9 @@ Here is the [link](https://serenity-bdd.github.io/theserenitybook/latest/index.h
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 ```
+
 3. Add dependencies
+
 ```xml
 <!--        This is for base support for anything we do with serenity-->
         <dependency>
@@ -47,6 +51,7 @@ Here is the [link](https://serenity-bdd.github.io/theserenitybook/latest/index.h
 ```
 
 4. Add Build plugins
+
 ```xml
   <build>
         <plugins>
@@ -86,6 +91,7 @@ Here is the [link](https://serenity-bdd.github.io/theserenitybook/latest/index.h
         </plugins>
     </build>
 ```
+
 5. Create a package called `EU8` under `src/test/java`
     1. under EU8 create `spartan` and under spartan create `admin` packages
     2. create a class called `SpartanAdminGetTest`
